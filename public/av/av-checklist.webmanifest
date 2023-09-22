@@ -1,0 +1,20 @@
+{
+    "name": "AV Checklist",
+    "short_name": "AV Checklist",
+    "description": "AV Checklist for Farnham Baptist Church",
+    "icons": [
+        {
+            "src": "/av/app-icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/av/app-icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/av/",
+    "display": "standalone",
+    "background_color": "#ffffff"
+}
