@@ -30,7 +30,7 @@ const Lists = [
 					<h2 class="font-bold text-xl">{ list.title }</h2>
 					<ul class="overflow-y-scroll md:max-h-[calc(100vh-7.5rem)]">
 						{ data.filter((card) => card.idList === list.id).map((card) => 
-							<li class="bg-white border-1 border-stone-400 break-all mt-2 overflow-hidden p-2 rounded-md lg:break-normal">
+							<li class="bg-white border-1 border-stone-400 break-words break-normal mt-2 overflow-hidden p-2 rounded-md">
 								<div>
 									<ul class="flex gap-1 min-h-6">
 										{ card.labels.map((label) =>
